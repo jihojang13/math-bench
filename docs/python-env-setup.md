@@ -89,3 +89,7 @@ mamba create -n <envname> python=3.xx
 ```shell
 mamba install numpy
 ```
+
+
+## SSH 접속시 Conda environment 자동 선택
+`.bashrc`에 `source activate <envname>` 
